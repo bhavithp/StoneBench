@@ -378,7 +378,6 @@ transition:0.4s linear;cursor:pointer;}
 /*End Contact Section*/
 
 /*Start Footer Section */
-.footer_Section{background:#123;color:#fff;}
 
 .footer_Section .section_Title{color:#fff;}
 
@@ -388,7 +387,7 @@ transition:0.4s linear;cursor:pointer;}
 
 .inner_contact{padding:82px 36px;}
 
-.inner_contact span i{display:flex;padding-right: 10px;margin:22px;font-size:14px;}
+.inner_contact span i{display:flex;padding-right: 10px;margin:22px;font-size:12px;}
 
 .fa-phone:before {content: "\f095";margin-right: 10px;}
 
@@ -427,7 +426,7 @@ p.sub_Section_content {font-size: 16px;line-height: 25px;}
 
 .footer_layouts span{margin:20px 0px;display:flex;}
 
-.footer_layouts a{text-decoration:none;margin:10px 10px;}
+.footer_layouts a{text-decoration:none;}
 /*End Footer Section*/
 
 

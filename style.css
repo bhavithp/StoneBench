@@ -5,7 +5,7 @@ html{scroll-behavior:smooth;transition:.4s linear;}
 section{padding-top:50px;}
 
 .navbar{position:fixed;display:flex;justify-content:center;align-items:center;flex-direction:row;flex-wrap:wrap;
-	background-color:#20B2AA;width:100%;height:70px;z-index:999;}
+	background-color:#fff;width:100%;height:70px;z-index:999;}
 
 
 .nav_Bar{display:flex;justify-content:right;list-style:none;}
@@ -32,7 +32,7 @@ section{padding-top:50px;}
 }
 
 .banner-slider1 {
-    background: url(../image/a.jpg) no-repeat center;
+    background: url(../image/d.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,7 +41,7 @@ section{padding-top:50px;}
 }
 
 .banner-slider2 {
-    background: url(../image/b.jpg) no-repeat center;
+    background: url(../image/e.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,7 +50,7 @@ section{padding-top:50px;}
 }
 
 .banner-slider3 {
-    background: url(../image/c.jpg) no-repeat center;
+    background: url(../image/a.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,6 +67,7 @@ section{padding-top:50px;}
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: capitalize;
+	color: yellow;
 }
 
 .banner-agile-text p {
@@ -188,7 +189,7 @@ h1{line-height:32px;font-size:32px;padding:10px 0px;color:#ffffff;font-weight:70
 
 
 
-.blocks_Section{width:100%;background-color:#ddd;}
+.blocks_Section{width:100%;background-color:#fff;}
 
 .All_blocks{width:96%;max-width:1200px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:auto;
 	padding:20px}
@@ -202,6 +203,19 @@ h1{line-height:32px;font-size:32px;padding:10px 0px;color:#ffffff;font-weight:70
 .blocks a {text-decoration:none;color:#af1c1c;font-weight:600;}
 
 .blocks i{font-size:100px;color:#123;}
+.font_8 {
+    display: flex;
+margin-left:5px;
+}
+
+#res {
+	height: auto;
+}
+
+#res {
+	height: auto;
+	width: auto;
+}
 /*End Blocks Section */
 /*Start Works Section*/
 .work_with_us{background-color:#FFFF;padding:20px;}
@@ -233,6 +247,8 @@ background-repeat:no-repeat;background-size:100% 50%;}
 .projects a i {padding:19px;background:#ddd;color:#111;margin:30px;}
 /*End Project Section */
 /*Start more us section */
+
+
 .moreus_section{width:100%;}
 
 .section_Title{text-align: center;color:#010000;padding:12px;position:relative;text-transform:uppercase;}
@@ -271,11 +287,11 @@ box-shadow:3px 4px 19px #ddd, -1px 9px 3px #ddd}
 .table span{display:grid;padding:10px 0px;}
 /*End Pricing Table*/
 /*Start Team Section*/
-.team_section{background:#DDD;padding:30px;}
+.team_section{background:#fff;padding:30px;}
 
-.inner_section{width:100%;max-width:1200px;margin:auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;}
+.inner_section{width:100%;max-width:1200px;margin:auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:top;}
 
-.person{max-width:300px;flex:22%;margin:20px 10px;box-shadow:2px 3px 3px #ddd, 3px 4px 1px #DDD;background:#fff;
+.person{max-width:300px;flex:0%;margin:20px 10px;box-shadow:2px 3px 3px #ddd, 3px 4px 1px #DDD;background:#f7f7f7;
 	padding:0px 0px 40px;border-radius:10px;}
 
 .person h3{text-align: center;}
@@ -379,7 +395,6 @@ transition:0.4s linear;cursor:pointer;}
 
 /*Start Footer Section */
 
-.footer_Section .section_Title{color:#fff;}
 
 .inner_Footer{width:100%;max-width:1200px;margin:auto;justify-content: center;align-items:center;display:flex;flex-wrap:wrap;}
 
@@ -423,17 +438,12 @@ p.sub_Section_content {font-size: 16px;line-height: 25px;}
 .recent_posts a:hover{color:red;}
 
 .footer_layouts{background:#48dbdb;padding:20px 0px;width:100%;margin:auto;}
-
 .footer_layouts span{margin:20px 0px;display:flex;}
 
 .footer_layouts a{text-decoration:none;}
 /*End Footer Section*/
 
-
 /*Responsive Design */
-
-
-
 
 @media (max-width:1250px){
 	.navbar{display:none;}

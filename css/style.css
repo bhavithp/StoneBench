@@ -25,7 +25,7 @@ section{padding-top:50px;}
 .banner-slider1,
 .banner-slider2,
 .banner-slider3 {
-    min-height: 47vw;
+    min-height: 70vw;
     -webkit-transition: width 2s, height 4s;
     /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 4s;

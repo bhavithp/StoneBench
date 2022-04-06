@@ -194,7 +194,7 @@ h1{line-height:32px;font-size:32px;padding:10px 0px;color:#ffffff;font-weight:70
 .All_blocks{width:96%;max-width:1200px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:auto;
 	padding:20px}
 
-.blocks{background:#FFFF;margin:20px;flex:50%;max-width:40%;box-sizing:border-box;height:250px;text-align: center;}
+.blocks{background:#FFFF;margin:20px;flex:50%;max-width:40%;box-sizing:border-box;height:250px;text-align: top;}
 
 .blocks h2{font-size:22px;}
 
@@ -495,7 +495,7 @@ p.sub_Section_content {font-size: 16px;line-height: 25px;}
 }
 
 
-@media screen and(max-width: 600px;){
+@media screen and(max-width: 600px){
 	.name,.email{width:100%;float: left;}
 
 }
